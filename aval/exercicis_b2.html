@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resum de resultats</title>
+    <style>
+      div.title-container { display: flex; align-items: center; }
+      h1 { margin-left: 10px; }
+      img { height: 5em; vertical-align: middle; }
+
+      tr.exercise:hover { background-color: #f5f5f5; }
+      th, td { font-weight: normal; padding: 5px 2px; }
+      th { background-color: #1d96b2; color: white; }
+      td { border-bottom: 1px solid #ddd; }
+      tr.header th:first-child { border-top-left-radius: 5px; }
+      tr.header th:last-child { border-top-right-radius: 5px; }
+
+      .questionable { cursor: help; }
+      span.help { cursor: help; }
+      td.attributes { text-align: center; white-space: nowrap; font-size: .6em;}
+      td.result     { text-align: center; padding: .5em; }
+      span.activeattrib { color: blue; font-weight:bolder; text-shadow: 1px 1px 2px #000000; cursor: help;}
+      span.innactiveattrib { color: lightgrey; font-weight: lighter; cursor: help;}
+      a.discrete:link, a.discrete:visited { color: black; text-decoration: none; }
+
+      span.tooltip {
+          background-color: #fffffa;
+          padding: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          position: absolute;
+          z-index: 1;
+      }
+      span.clickable { cursor: pointer; }
+      #entry1 { position: relative; }
+      td.overdue { color: grey; font-style: italic; }
+      div.important {
+          background-color: yellow;
+          border: 2px solid grey; /* You can adjust the border color as desired */
+          box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow properties for desired effect */
+          padding: 10px; /* Adjust padding as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-container">
+        <a class="discrete" href="https://gatrenat.github.io/introprgdev/">
+            <img src="https://gatrenat.github.io/introprg//_static/logoprg.png" alt="logo" title="obre els apunts">
+        </a>
+        <h1>Resultats de la correcció automàtica</h1>
+    </div>
+    <p>Hola Rainier</p><p>Aquest és un resum dels resultats de la correcció automàtica dels exercicis del teu repositori: <tt>git@github.com:MrSenpai22/introprg.git</b>.</tt><table>
+        <tr class="header">
+          <th colspan=2>Exercici</th>
+          <th class="questionable" title="Data límit del lliurament">data límit</th>
+          <th colspan=2>Resultat</th>
+        </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_01_excepcional.html">20_01_excepcional</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="innactiveattrib" title="Exercici sense proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-10T23:59:59.999999+00:00">dt. 10 de de març</td>
+            <td class="result">
+               <span class='help' title="lliurat">☑</span>
+            </td>
+            <td>
+              <span>Lliurat dins de termini</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #729dc958:
+                    <span class="show-date" data-date="2026-03-06T07:46:41+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_02_vocal_inici_fi.html">20_02_vocal_inici_fi</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-13T23:59:59.999999+00:00">dv. 13 de de març</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #16a07177:
+                    <span class="show-date" data-date="2026-03-06T08:57:16+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_03_csv.html">20_03_csv</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-17T23:59:59.999999+00:00">dt. 17 de de març</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #f675b031:
+                    <span class="show-date" data-date="2026-03-10T08:44:27+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_04_lloro_memoria.html">20_04_lloro_memoria</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-17T23:59:59.999999+00:00">dt. 17 de de març</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #8e764870:
+                    <span class="show-date" data-date="2026-03-10T15:12:59+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_05_traduccio.html">20_05_traduccio</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-17T23:59:59.999999+00:00">dt. 17 de de març</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #5dfe7bfa:
+                    <span class="show-date" data-date="2026-03-17T10:50:13+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_06_log.html">20_06_log</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-03-20T23:59:59.999999+00:00">dv. 20 de de març</td>
+            <td class="result">
+               <span class='help' title="Cal prgtest">🔄</span>
+            </td>
+            <td>
+              <span>No executat prgtest pels darrers canvis</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #cf3a7cc8:
+                    <span class="show-date" data-date="2026-03-20T09:29:58+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_07_nota.html">20_07_nota</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-04-14T23:59:59.999999+00:00">dt. 14 de d’abril</td>
+            <td class="result">
+               <span class='help' title="falla">❌</span>
+            </td>
+            <td>
+              <span>No passa les proves de prgtest</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #70821ea1:
+                    <span class="show-date" data-date="2026-03-24T10:48:36+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_08_alumnes.html">20_08_alumnes</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-04-14T23:59:59.999999+00:00">dt. 14 de d’abril</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #18b455e8:
+                    <span class="show-date" data-date="2026-03-20T17:47:30+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+        <tr class="exercise">
+            <td><a class="discrete" target="_blank" title="obre l'enunciat" href="https://gatrenat.github.io/introprg/exercici_20_09_inspecciona.html">20_09_inspecciona</a></td>
+            <td class="attributes">
+              <span class="innactiveattrib" title="Exercici no optatiu">☼</span>
+              <span class="innactiveattrib" title="Exercici amb complexitat estàndard">☆</span>
+              <span class="activeattrib" title="Exercici amb proves automàtiques">✓</span>
+            </td>
+            <td duedate="2026-04-14T23:59:59.999999+00:00">dt. 14 de d’abril</td>
+            <td class="result">
+               <span class='help' title="passa">✅</span>
+            </td>
+            <td>
+              <span>Passa totes les proves</span>
+                              <span class="clickable"></span>
+                  <span class="tooltip">Commit #55214efd:
+                    <span class="show-date" data-date="2026-03-20T18:38:54+00:00"></span>
+                  </span>
+                          </td>
+          </tr>
+              </table><p>Darrer commit avaluat #70821ea1 amb data <span class="show-date" data-date="2026-03-24 10:48:36"></span></p><script>
+      // show the dates in user's timezone
+      show_with_timezone();
+
+      // connect results to tooltip
+      document.querySelectorAll('tr.exercise').forEach(function (tr) {
+          const button = tr.querySelector('span.clickable');
+          if (button != null) {
+              button.textContent = "…";
+              button.title = "Click per mostrar detalls";
+              const tooltip = tr.querySelector('span.tooltip');
+              tooltip.style.display = "none";
+              button.addEventListener("click", function () {
+                  if (tooltip.style.display == "inline") {
+                      hideTooltip(tr);
+                  } else {
+                      document.querySelectorAll('span.tooltip:not(hidden)').forEach(function (span) {
+                          hideTooltip(span.parentNode.parentNode);
+                      });
+                      showTooltip(tr);
+                  }
+              })
+          }
+      });
+      // represent UTC dates in user's timezone
+      function show_with_timezone() {
+        // Select all elements with the class 'show-date'
+        document.querySelectorAll('.show-date').forEach(function(el) {
+          const dt_string = el.getAttribute('data-date');
+          // Support 'YYYY-MM-DD HH:mm:ss', parse as UTC
+          ////const dt_iso = dt_string.replace(' ', 'T') + 'Z';
+          const date = new Date(dt_string);
+          el.innerText += date.toLocaleString(undefined, { hour12: false });
+        });
+      }
+      // mark due entries as overdue
+      document.querySelectorAll('td[duedate]').forEach(td => {
+          const dueDate = new Date(td.getAttribute('duedate'));
+          const currentDate = new Date();
+          if (dueDate < currentDate) {
+              td.classList.add('overdue');
+              td.classList.add('questionable');
+              td.title = "Superada la data límit de l'exercici";
+          }
+      });
+      function hideTooltip(tr) {
+          const button = tr.querySelector('span.clickable');
+          button.textContent = "…";
+          button.title = "Click per mostrar detalls";
+          const tooltip = tr.querySelector('span.tooltip');
+          tooltip.style.display = "none";
+      }
+      function showTooltip(tr) {
+          const button = tr.querySelector('span.clickable');
+          button.title = "Click per ocultar detalls";
+          button.textContent = "→";
+          const tooltip = tr.querySelector('span.tooltip');
+          tooltip.style.display = "inline";
+      }
+    </script>
+  </body>
+</html>
