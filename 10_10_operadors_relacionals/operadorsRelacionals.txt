@@ -1,0 +1,73 @@
+Enunciat
+
+Escriu una expressió per cadascuna de les següents preguntes.
+
+Considera fer servir els operadors aritmètics i els relacionals vists als apunts.
+
+Pots inventar-te el nom de les variables que et calguin. Si creus que cal algun aclariment, fes servir comentaris.
+
+la teva edat és superior als 18 anys
+
+    int mevaEdat = 10
+
+    mevaEdat > 18  
+
+tens menys de 5 germans
+
+    int quantitatGermans;
+
+    quantitatGermans < 5 
+
+la suma de 2 més 5 és igual a 7
+
+    2 + 5 == 7 
+
+la suma de 2 més 5 és diferent de 7
+
+    2 + 5 =! 7 
+
+l'any que ve seràs major d'edat
+
+    int mevaEdat = 17;
+    int anyQueVe = mevaEdat + 1;
+    
+    anyQueVe >= 18
+    
+    True
+
+l'any passat encara no eres major d'edat
+
+int mevaEdat = 14;
+int anyPassat = mevaEdat - 1;
+
+    anyPassat <= 18
+    
+    True
+tens com a molt 35 companys a classe
+
+    companys <= 35 
+
+tens tants companys a classe com anys
+
+    companys == anys
+
+el Renat té quatre potes
+
+    int quantitatPotesTeRenat == 4;
+
+estem a més de 28 graus
+
+    T>28
+
+Afegeix com a mínim 2 (dos) expressions addicionals inventades per tu. Cal que afegeixis tant la descripció "humana" com l'expressió que proposes. Si no tens gaires idees, modifica lleugerament les anteriors, però recorda que en programació la creativitat juga un paper importantíssim i es pot entrenar.
+
+Tinc dos anys més que la meva germana
+
+int mevaEdat = 9;
+int edatGermana = mevaEdat - 2;
+
+la resta de 10 menys 5 és igual a 5
+
+    10 - 5 == 5 true
+
+

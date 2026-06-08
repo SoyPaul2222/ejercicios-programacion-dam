@@ -1,0 +1,37 @@
+Enunciat
+
+Posa parèntesis i calcula el resultat final de les següents expressions de manera que quedi explicitada la precedència del operadors.
+
+Pots fer servir la jshell per comprovar els teus resultats.
+
+- 5 + 4 * 3
+
+    5 + (4 * 3) → 5 + 12 → 17
+
+- -5 * 4 + -3
+
+    -(5 * 4) -3 → -20 - 3 → -23
+
+- true && false || ! true
+
+    - (true && false) || ! true → false || !true → false
+
+false && (10 > 3) || ! (4 > 5)
+
+    - (false && true) || !false → false || true → true
+
+(false == (5 > 4)) && (false == ! true) || (false != true)
+
+    - (false == true) && (false == false) || (false != true) → false && true || true → false || true → true
+
+Afegeix al menys 2 (dos) noves expressions i els seus resultats, inventades per tu. Intenta que, com a mínim una d'elles contingui operadors lògics.o
+
+- true && true
+    
+    true
+
+- 4 + 5 * 3
+
+    4 + (5 * 3) → 4 + 15 → 19
+
+
